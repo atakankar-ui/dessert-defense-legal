@@ -1,0 +1,53 @@
+:root {
+  --bg: #fff8fb;
+  --text: #4a2f3d;
+  --soft: #8a6b7a;
+  --pink: #d04f8a;
+  --line: #f1d6e3;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 32px 16px 48px;
+}
+.game {
+  margin: 0;
+  color: var(--pink);
+  font-weight: 700;
+}
+h1 {
+  margin: 4px 0 0;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.date {
+  margin: 4px 0 24px;
+  color: var(--soft);
+  font-size: 14px;
+}
+h2 {
+  margin: 28px 0 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 19px;
+}
+a {
+  color: var(--pink);
+}
+ul {
+  padding-left: 22px;
+}
+.nav {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
